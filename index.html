@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid practice</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+       .calender{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        row-gap:20px;
+        column-gap: 10px;
+       
+       
+       }
+       .date , .day{
+        background-color: aqua;
+        border-radius: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+       }
+       .day{
+        background-color: aliceblue;
+        font-size: 1em;
+       }
+       .container{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+       }
+       .box{
+        background-color: blue;
+        padding: 20px;
+        border-radius: 20px;
+       }
+       .container2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+       }
+       .item {
+       width: 200px;
+       height: 100px;
+       background-color: palegreen;
+       margin-top: 20px;
+       border: 3px solid red;
+
+       }
+
+
+
+       @media screen and (max-width:576px){
+        .container{
+            flex-direction: column;
+        }
+       }
+       /* h1{
+        background-color: red;
+       } */
+      
+    </style>
+</head>
+<body>
+    <div class="calender">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day">S</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        
+    </div>
+    <div class="container">
+        <div class="box"><h2>BOX_1</h2><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum nemo nesciunt accusantium, commodi dolores dolorum veritatis error, illum voluptatem eum praesentium molestiae laudantium assumenda ducimus est facilis odio quod?</p></div>
+        <div class="box"><h2>BOX_2</h2><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum nemo nesciunt accusantium, commodi dolores dolorum veritatis error, illum voluptatem eum praesentium molestiae laudantium assumenda ducimus est facilis odio quod?</p></div>
+    </div>
+    <div class="container2">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+        <div class="item">item 10</div>
+    </div> -->
+    <h1>My Picture Collage</h1>
+    <main>
+        <section>
+            <div class="row">
+                <img src="img/A.jpg" alt="">
+            </div>
+            <div class="row">
+                <div><img src="img/B.jpg" alt=""></div>
+                <div><img src="img/C.jpg" alt=""></div>
+                <div class="vertical-collage">
+                    <img src="img/D.jpg" alt="">
+                    <img src="img/E.jpg" alt="">
+             </div>
+            </div>
+            <div class="row">
+                <div>
+                    <img src="img/F.jpg" alt="">
+                </div>
+                <div class="square-collage">
+                    <img src="img/G.jpg" alt="">
+                    <img src="img/G.jpg" alt="">
+                    <img src="img/G.jpg" alt="">
+                    <img src="img/G.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/H.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
